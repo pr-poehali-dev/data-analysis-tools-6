@@ -3,40 +3,40 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
-  },
-  {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
-  },
-  {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Killaura и боевые функции",
+    description: "Автоматическая атака по врагам, критические удары и точное прицеливание для победы в любом PvP.",
     icon: "zap",
-    badge: "Умный",
+    badge: "PvP",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
+    title: "Защита от античита",
+    description: "Продвинутый байпас обходит популярные античиты и скрывает действия от других игроков на сервере.",
+    icon: "lock",
+    badge: "Bypass",
   },
   {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "ESP и вижуалы",
+    description: "Подсветка игроков, мобов, руды и сундуков сквозь стены. Видите всё, что скрыто от обычного взгляда.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "Visuals",
+  },
+  {
+    title: "Движение и полёт",
+    description: "Fly, Speed, NoFall и Spider — полная свобода перемещения по карте без ограничений.",
+    icon: "globe",
+    badge: "Movement",
+  },
+  {
+    title: "Поддержка версий",
+    description: "Работает на всех актуальных версиях Minecraft и популярных лаунчерах без лишних настроек.",
+    icon: "link",
+    badge: "1.8 — 1.21",
+  },
+  {
+    title: "Гибкая настройка",
+    description: "Удобное меню с горячими клавишами, профилями и тонкой настройкой каждого модуля под себя.",
+    icon: "brain",
+    badge: "ClickGUI",
   },
 ]
 
@@ -45,9 +45,9 @@ export function FeaturesSection() {
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности чита</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Десятки модулей, которые дают преимущество на любом сервере Minecraft
           </p>
         </div>
 

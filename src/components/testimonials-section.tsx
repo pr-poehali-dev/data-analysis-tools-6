@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
+    name: "xX_DragonSlayer_Xx",
+    role: "Игрок анархии, 2.5k часов",
+    avatar: "/placeholder.svg",
     content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
+      "Залетел на сервер и поднялся в топ PvP за неделю. Killaura настраивается идеально, бан так и не словил.",
   },
   {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
-    avatar: "/cybersecurity-expert-man.jpg",
+    name: "ProBuilder_99",
+    role: "Стример Minecraft",
+    avatar: "/placeholder.svg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "Байпас реально рабочий — гоняю на популярных серверах в открытую и без палева. ESP сундуков экономит кучу времени.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
-    avatar: "/asian-woman-tech-developer.jpg",
+    name: "NeZnayka_2010",
+    role: "Игрок BedWars",
+    avatar: "/placeholder.svg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "Меню удобное, всё на горячих клавишах. Поставил за пару минут, теперь выношу катки на BedWars без проблем.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Отзывы игроков</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Тысячи игроков уже используют NitroCheat каждый день
           </p>
         </div>
 
